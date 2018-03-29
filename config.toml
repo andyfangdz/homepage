@@ -1,0 +1,4 @@
+baseURL = "https://andyfang.me/"
+languageCode = "en-us"
+title = "Andy Fang"
+theme = "sam"
