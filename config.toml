@@ -11,3 +11,7 @@ publishbranch = "gh-pages"
 [[params.mainMenu]]
     link = "https://cv.andyfang.me/resume"
     text = "Resume"
+
+[[params.mainMenu]]
+    link = "mailto:andy@andyfang.me"
+    text = "andy@andyfang.me"
