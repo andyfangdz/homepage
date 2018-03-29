@@ -4,4 +4,4 @@ set +ex
 hugo
 cp CNAME public
 
-dpl --provider=pages --github-token=$GH_TOKEN --local-dir=public
+dpl --provider=pages --github-token=$GH_TOKEN --local-dir=public --skip_cleanup=true
