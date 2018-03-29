@@ -3,3 +3,11 @@ languageCode = "en-us"
 title = "Andy Fang"
 theme = "sam"
 publishbranch = "gh-pages"
+
+[[params.mainMenu]]
+    link = "https://cv.andyfang.me"
+    text = "CV"
+
+[[params.mainMenu]]
+    link = "https://cv.andyfang.me/resume"
+    text = "Resume"
