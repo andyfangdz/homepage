@@ -11,6 +11,7 @@ install:
   - go get github.com/gohugoio/hugo
 script:
   - hugo
+  - cp CNAME public
 
 deploy:
   provider: pages
