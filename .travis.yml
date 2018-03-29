@@ -1,16 +1,17 @@
 language: go
 go:
-- master
+  - master
 addons:
   apt:
     packages:
-    - python-pygments
+      - python-pygments
+
 install:
-- rm -rf public || exit 0
-- go get github.com/gohugoio/hugo
+  - rm -rf public || exit 0
+  - go get github.com/gohugoio/hugo
 script:
-- cd src
-- hugo
+  - hugo
+
 deploy:
   provider: pages
   skip_cleanup: true
