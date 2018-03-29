@@ -4,6 +4,14 @@ title = "Andy Fang"
 theme = "sam"
 publishbranch = "gh-pages"
 
+
+[params]
+    description = "Hi, I'm Andy."
+    primaryImage = "/static/andyfang.me.png"
+    favicon = "/static/favicon.ico"
+    twitterCard = "summary_large_image"
+    title = "Andy Fang"
+
 [[params.mainMenu]]
     link = "https://cv.andyfang.me"
     text = "CV"
