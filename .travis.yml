@@ -1,16 +1,20 @@
 language: go
-go:
-  - master
 addons:
   apt:
     packages:
       - python-pygments
 
+env:
+  - HUGO_VERSION=0.38.1
+
 install:
   - rm -rf public || exit 0
-  - go get github.com/gohugoio/hugo
+  - mkdir bin
+  - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+  - tar xvf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -C bin
+
 script:
-  - hugo
+  - bin/hugo
   - cp CNAME public
 
 deploy:
