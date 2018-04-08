@@ -2,7 +2,30 @@
 <body>
     <div class="section" id="splash">
         <div class="section bottom-menu">
+            <style>
+                @keyframes AppearFadeIn {
+                    0% {
+                    }
+                    100% {
+                        opacity: 1;
+                    }
+                }
+                .appear-after-five-seconds {
+                    opacity: 0;
+                    width: 100%;
+                    animation: AppearFadeIn 2s;
+                    animation-delay: 5s;
+                    animation-fill-mode: forwards;
+                }
+                .appear-after-five-seconds:hover {
+                    opacity: 1;
+                }
+            </style>
             <h1>Sorry, the content you're looking for is not available in your country.</h1>
+            <div class="appear-after-five-seconds">
+                <h2>(Or any other countries.)</h2>
+                <a href="https://xkcd.com/1969/">wat</a>
+            </div>
             <hr/>
             <p>
                 <a href="{{ .Section | relURL }}">back</a>
@@ -13,8 +36,13 @@
                 {{ range after 1 .Site.Params.mainMenu }} 
                     &#183; <a href="{{ .link }}">{{ .text }}</a>
                 {{ end }} &#183;
-                <a href="{{.Site.BaseURL}}">{{ .Site.Params.homepage }}</a>{{ end }}</p>
+                <a href="{{.Site.BaseURL}}">{{ .Site.Params.homepage }}</a> &#183;
+                <a href="{{.Site.BaseURL}}">legal basis</a>
+                {{ end }}</p>
         </div>
         <div class="section footer">{{ partial "footer.html" . }}</div>
+        <div class="section footer">
+            <a>what is this?</a>
+        </div>
     </div>
 </body>
