@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andy Fang</title>
+    <link>https://andyfang.me/</link>
+    <description>Recent content on Andy Fang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://andyfang.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>who is andy?</title>
+      <link>https://andyfang.me/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://andyfang.me/about/</guid>
+      <description>Dezhi &amp;ldquo;Andy&amp;rdquo; Fang is a graduating Computer Science student at Georgia Tech with concentrations in Information Network and Intelligence. During his 3 years of undergraduate education, Andy has acquired abundant research and work experiences in the fields of HPC, Data Visualization, HCI, and Performance Engineering.
+Andy is a member of Polo Club of Data Science, where he worked closely with Professor Polo Chau. He produced 4 papers in the intersection of Data Mining and Human-Computer Interaction, and also enjoyed fixing people’s Linux and JavaScript problems.</description>
+    </item>
+    
+  </channel>
+</rss>
