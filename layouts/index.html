@@ -1,11 +1,11 @@
 {{ partial "head.html" . }}
 <body>
-<div class="section" id="splash">
+<div class="wrap" style="margin-top: 4rem;">
   <div class="nav-link"><a href="https://cv.andyfang.me">CV / Resume</a></div>
   <div class="nav-link"><a href="mailto:andy@andyfang.me">andy@andyfang.me</a></div>
-</div>
-<div class="section" id="content" style="width: 45%; margin: 2rem 0;">
-  {{ .Content }}
+  <div id="content" style="margin-top: 2rem;">
+    {{ .Content }}
+  </div>
 </div>
 <style>
 .nav-link {
