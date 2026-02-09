@@ -11,17 +11,4 @@ publishbranch = "gh-pages"
     favicon = "/static/favicon.ico"
     twitterCard = "summary_large_image"
     title = "Andy Fang"
-    homepage = "main"                        # What to call the home page link
     footerText = "andy@andyfang.me"
-
-[[params.mainMenu]]
-    link = "https://cv.andyfang.me"
-    text = "CV / Resume"
-
-[[params.mainMenu]]
-    link = "/about"
-    text = "who is andy?"
-
-[[params.mainMenu]]
-    link = "mailto:andy@andyfang.me"
-    text = "andy@andyfang.me"

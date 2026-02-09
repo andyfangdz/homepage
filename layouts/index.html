@@ -1,0 +1,19 @@
+{{ partial "head.html" . }}
+<body>
+<div class="section" id="splash">
+  <div class="nav-link"><a href="https://cv.andyfang.me">CV / Resume</a></div>
+  <div class="nav-link"><a href="mailto:andy@andyfang.me">andy@andyfang.me</a></div>
+</div>
+<div class="section" id="content" style="width: 45%; margin: 2rem 0;">
+  {{ .Content }}
+</div>
+<style>
+.nav-link {
+  font-family: "Didact Gothic", "sans serif";
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 1.2rem;
+  line-height: 1.5em;
+}
+</style>
+</body>
